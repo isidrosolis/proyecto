@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="author" content="Isidro Solis">
+<head>
+	<title>Educaci&oacute;n</title>
+</head>
+<body>
+	<svg width="150" height="150" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+		 <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+		 <g>
+			  <title>Logo</title>
+			  <rect id="svg_5" height="80" width="100" y="70" x="35" stroke-width="5" stroke="#6d9b53" fill="#7f7f00"/>
+			  <text stroke="#000000" transform="matrix(1.8072747105492795,0,0,1.464496976877811,-81.91388801001607,-44.09171028920183) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="20" id="svg_6" y="110" x="90" stroke-width="0" fill="#000EFF">I S</text>
+		 </g>
+	</svg>
+	<header>
+		<h1>Curriculum Vitae</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="experiencia.html">Ver Experiencia</a></li>
+		</ul>
+	</nav>
+	<h2>Datos Personales</h2>
+	<h3>
+		<p>Apellido y Nombres: <em>Solis Isidro</em></p>
+		<p>Fecha de Nacimiento: <em>23/07/1969</em></p>
+	</h3>
+	<h2>Educaci&oacute;n</h2>
+	<hr>
+	<div>
+		<table border="1" width="500">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Instituci&oacute;n</th>
+					<th>Nivel</th>
+					<th>Lugar</th>
+					<th>¿Culmin&oacute;?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1976</td>
+					<td>Manuel Belgrano</td>
+					<td>Primario</td>
+					<td>Brinkmann (C&oacute;rdoba)</td>
+					<td align="center">SI</td>
+				</tr>
+				<tr>
+					<td>1983</td>
+					<td>Manuel Belgrano</td>
+					<td>Secundario</td>
+					<td>Brinkmann (C&oacute;rdoba)</td>
+					<td align="center">SI</td>
+				</tr>
+				<tr>
+					<td>2000</td>
+					<td>Facultad Regional San Francisco - UTN</td>
+					<td>Universitario</td>
+					<td>San Francisco (C&oacute;rdoba)</td>
+					<td align="center">SI</td>
+				</tr>
+			</tbody>
+		</table>
+	<div>
+		<h3>Agregar Estudios</h3>
+		<form autocomplete="on" name="Formulario para nuevos estudios">
+			<fieldset>
+				<legend>Nuevo Estudio</legend>
+				<p>
+					<label for="anio">Año:</label>
+					<select name="anio">
+						<option value="2010">2010</option>
+						<option value="2011">2011</option>
+						<option value="2012">2012</option>
+						<option value="2013">2013</option>
+						<option value="2014">2014</option>
+						<option value="2015">2015</option>
+						<option value="2016">2016</option>
+						<option value="2017">2017</option>
+					</select>
+				<p>
+			    <div>
+			        <label for="institucion">Intituci&oacute;n:</label>
+			        <input type="text" id="institucion" placeholder="Ingrese una institución" maxlength="30" required />
+			    </div>
+			    <p>
+			        <label for="lugar">Lugar:</label>
+			        <textarea id="lugar" rows="5" cols="50" maxlength="100" placeholder="Ingrese la ubicación de la institución" required="true"></textarea>
+			    </p>
+			     <div>
+			        <label for="nivel">Nivel</label>
+			        <input type="text" id="nivel" placeholder="Ingrese nivel alcanzado" maxlength="30" required />
+			    </div>
+			    <p>
+			    	<label for="culmino">Culmin&oacute;</label>
+			    	<input type="radio" name="culmino" value="si" checked="false">Si
+			    	<input type="radio" name="culmino" value="no" checked="true">No
+			    </p>
+			    <p>
+			    	<input type="submit" value="Enviar">
+			    </p>
+			</fieldset>
+		</form>	
+	</<div>
+</body>
+</html>
